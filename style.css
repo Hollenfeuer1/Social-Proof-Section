@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+.container {
+    width: 75rem;
+    background: url(images/bg-pattern-top-desktop.svg) left top no-repeat, url(images/bg-pattern-bottom-desktop.svg) right bottom no-repeat;
+    box-shadow: 5px 5px 20px hsl(300, 24%, 96%);
+}
+
+.info {
+    margin: 5% 0 5% 10%;
+}
+
+.container h1  {
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.card {
+    color: white;
+    background: hsl(300, 43%, 22%);
+    width: 25rem;
+}
+
+#profile-icon {
+    border-radius: 50%;
+}
+
+.card-subtitle {
+    color: hsl(333, 80%, 67%);
+}
