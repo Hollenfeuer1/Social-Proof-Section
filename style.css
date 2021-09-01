@@ -38,7 +38,7 @@ body {
     margin: 0 0 5% 4%;
 }
 
-.card.review {
+#review-1, #review-2, #review-3 {
     color: hsl(300, 43%, 22%);
     background:hsl(300, 24%, 96%);
     font-weight: 700;
