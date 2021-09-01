@@ -9,8 +9,9 @@ body {
     box-shadow: 5px 5px 20px hsl(300, 24%, 96%);
 }
 
-.info {
-    margin: 5% 0 5% 10%;
+.info, .star-reviews {
+    padding: 0;
+    margin: 5% 0 5% 7%;
 }
 
 .container h1  {
@@ -18,10 +19,34 @@ body {
     color: hsl(300, 43%, 22%);
 }
 
+.stars {
+    display: inline;
+    float: left;
+    margin-right: 4%;
+}
+
+#review-2 {
+    margin: 4% 0 0 9%;
+}
+
+#review-3 {
+    margin: 4% 0 0 18%;
+}
+
+.reviews {
+    width: 90%;
+    margin: 0 0 5% 4%;
+}
+
+.card.review {
+    color: hsl(300, 43%, 22%);
+    background:hsl(300, 24%, 96%);
+    font-weight: 700;
+}
+
 .card {
     color: white;
     background: hsl(300, 43%, 22%);
-    width: 25rem;
 }
 
 #profile-icon {
